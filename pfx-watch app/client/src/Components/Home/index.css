@@ -1,0 +1,75 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+    height: 90vh;
+    padding: 20px;
+    background: linear-gradient(rgb(169, 169, 111),rgb(105, 144, 105),rgb(112, 112, 155));
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+.nav{
+   justify-content: space-evenly;
+   color: black;
+   background-color: #4f4d4d;
+   border-top: 60px;
+   border-radius: 60px;
+}
+  
+ 
+  
+.logos {
+    max-width: 100%;
+    height: 50vh;
+    width: 60vw;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.logout-button {
+    background: linear-gradient(rgb(177, 177, 252),white,rgb(123, 149, 123));
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #4b69ff;
+    font-family: 'Roboto';
+    font-size: 19px;
+    border: none;
+    margin-right: 55px;
+    float: right;
+    width: 110px;
+  }
+  .logout-button:hover{
+    background: linear-gradient(rgb(75, 75, 108),white,rgb(77, 77, 134));
+  }
+h1 {
+    color:rgb(92, 185, 92);
+    font-size: 40px;
+   background:linear-gradient(rgb(152, 152, 97),white,rgb(141, 141, 87));
+}
+h1:hover{
+   
+    background: linear-gradient(rgb(176, 152, 106),rgb(126, 126, 181),rgb(97, 163, 97));
+}
+h2 {
+    color: #4f4d4d;
+    font-size: 1.5em;
+}
+h2:hover{
+    
+    background: linear-gradient(rgb(99, 122, 146),white,rgb(168, 111, 166));
+}
+p {
+    color: #777;
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+
+a {
+    color: #909293;
+    text-decoration: none;
+}
+
+a:hover {
+    
+    background: linear-gradient(rgb(99, 146, 99),white,rgb(111, 111, 168));
+}
